@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid green ;
+  color: white
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;  
+  /* To be replace with a good bg-picture*/ 
+  background-color: black ;
+  border: 2px solid yellow ;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  border: 2px solid rgb(167, 85, 99) ;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border: 2px solid rgb(77, 81, 190) ;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(4, 3, 4);
+}
+
+.search input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+  border: 2px solid rgb(134, 32, 137) ;
+}
+
+.search button {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid rgb(9, 104, 213) ;
+}
+
+.location h1 {
+  margin-right: 10px;
+  border: 2px solid orange ;
+}
+
+.location p {
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid orangered ;
+}
+
+.temp {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid purple;
+  /* height: ; */
+}
+
+.temp h1 {
+  margin-right: 10px;
+}
+
+.temp p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wind-speed {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid rgba(68, 168, 205, 0.738) ;
+}
+
+.wind-speed h1 {
+  margin-right: 10px;
+  border: 2px solid rgb(236, 152, 166) ;
+}
+
+.wind-speed p {
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid blue;
+}
+
+.sunrise {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid greenyellow;
+}
+
+.sunrise h1 {
+  margin-right: 10px;
+  border: 2px solid tomato ;
+}
+
+.sunrise p {
+  font-size: 18px;
+  font-weight: bold; 
+border: 2px solid grey; 
+}
+
